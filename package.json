@@ -1,0 +1,36 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "Auth API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:nodemon": "DEBUG=auth-api* nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bareguarana/auth-api.git"
+  },
+  "keywords": [],
+  "author": "Richard Henrique <richard.h.passos@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bareguarana/auth-api/issues"
+  },
+  "homepage": "https://github.com/bareguarana/auth-api#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "nodemon": "^2.0.2",
+    "prettier": "1.19.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "env-var": "^6.0.4",
+    "express": "^4.17.1"
+  }
+}
